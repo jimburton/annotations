@@ -7,13 +7,13 @@ import CI346.annotations.DefaultValue;
  */
 public class User {
 
-    @DefaultValue(name="userID", value="42")
+    @DefaultValue("42")
     public int userID;
 
-    @DefaultValue(name="firstName", value="John")
+    @DefaultValue(value="John")
     public String firstName;
 
-    @DefaultValue(name="lastName", value="Doe")
+    @DefaultValue(value="Doe")
     public String lastName;
 
     public User(String firstName, String lastName) {

@@ -9,7 +9,7 @@ import java.lang.reflect.Field;
 public class Main {
 
     public static void main(String[] args) {
-        User u = new User("Jim", null);
+        User u = new User(null, "Milton");
         Field[] fields = u.getClass().getDeclaredFields();
 
 
@@ -24,7 +24,11 @@ public class Main {
                         f.set(u, Boolean.parseBoolean(a.value()));
                     }
                     else if (t.isPrimitive() && ((Number) v).doubleValue() == 0) {
-                        f.set(u, Integer.parseInt(a.value()));
+                        if(v instanceof Integer) {
+                            f.set(u, Integer.parseInt(a.value()));
+                        } else if (v instanceof Double) {
+                            f.set(u, Double.parseDouble(a.value()));
+                        }
                     }
                     else if (!t.isPrimitive() && v == null) {
                         f.set(u, a.value());
