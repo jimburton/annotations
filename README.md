@@ -176,7 +176,7 @@ that your default values are being applied.
 
 If you were designing a framework for which these kind of default values made
 sense, you could easily extend this approach to other "defaultable" types 
-(`@DefaultBoolean`, etc).
+(`@DefaultBoolean`, etc). 
 
 To have a look at my version of the code, switch to the `solution` branch.
  
