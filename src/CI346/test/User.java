@@ -1,22 +1,23 @@
 package CI346.test;
 
-import CI346.annotations.DefaultValue;
+import CI346.annotations.DefaultInt;
+import CI346.annotations.DefaultString;
 
 /**
  * Created by jb259 on 08/12/16.
  */
 public class User {
 
-    @DefaultValue("42")
+    @DefaultInt(42)
     public int userID;
 
-    @DefaultValue(value="John")
+    @DefaultString(value="John")
     public String firstName;
 
-    @DefaultValue(value="Doe")
+    @DefaultString(value="Doe")
     public String lastName;
 
-    public User(String firstName, String lastName) {
+    public User(final String firstName, final String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
