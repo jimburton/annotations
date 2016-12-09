@@ -171,7 +171,8 @@ for (Field f : fields) {
 ````
 
 The code that gets and sets the value of fields will throw various exceptions
-that you will need `try` and `catch` blocks for. 
+that you will need `try` and `catch` blocks for. Run the `main` method to check
+that your default values are being applied.
 
 If you were designing a framework for which these kind of default values made
 sense, you could easily extend this approach to other "defaultable" types 
