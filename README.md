@@ -114,7 +114,7 @@ before compilation time, the full example from above would look like this:
  }
  ````
  
- Create the `@DefaultString` and `@DefulatInt` annotations in the package `CI346.annotations`.
+ Create the `@DefaultString` and `@DefaultInt` annotations in the package `CI346.annotations`.
  Each of them is an annotation for *fields* and should be available at *runtime*. They should 
  each have one member, called value: for `@DefaultString`, `value` has the type `String`, 
  while for `@DefaultInt` it is an `int`.
