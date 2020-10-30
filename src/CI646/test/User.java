@@ -1,4 +1,4 @@
-package CI346.test;
+package CI646.test;
 
 import CI346.annotations.DefaultInt;
 import CI346.annotations.DefaultString;

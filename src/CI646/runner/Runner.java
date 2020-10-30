@@ -1,8 +1,8 @@
-package CI346.runner;
+package CI646.runner;
 
 import CI346.annotations.DefaultInt;
 import CI346.annotations.DefaultString;
-import CI346.test.User;
+import CI646.test.User;
 
 import java.lang.reflect.Field;
 

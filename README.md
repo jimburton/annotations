@@ -1,6 +1,6 @@
 # Annotations
 
-This is a lab exercise for the CI346 module at the University of Brighton.
+This is a lab exercise for the CI646 module at the University of Brighton.
 
 The Java Reflection API provides methods and techniques to inspect objects
 at runtime. In the lecture we showed a fragment of code which retrieves all methods
@@ -114,12 +114,12 @@ before compilation time, the full example from above would look like this:
  }
  ````
  
- Create the `@DefaultString` and `@DefaultInt` annotations in the package `CI346.annotations`.
+ Create the `@DefaultString` and `@DefaultInt` annotations in the package `CI646.annotations`.
  Each of them is an annotation for *fields* and should be available at *runtime*. They should 
  each have one member, called `value`: for `@DefaultString`, `value` has the type `String`, 
  while for `@DefaultInt` it is an `int`.
  
- Next, add annotations to fields in the class `CI346.test.User`. Because your
+ Next, add annotations to fields in the class `CI646.test.User`. Because your
  annotations have only member and in each case that member has the name `value`, 
  you can write these as `@DefaultString("foo")`, or `@DefaultInt(42)`. That is, 
  you don't need to write `@DefaultValue(value="foo")`, as you would if there were 
@@ -131,7 +131,7 @@ before compilation time, the full example from above would look like this:
  the appropriate default value from the annotation if they are. (Because `int` is a
  primitive rather than a reference type, an `int` is never `null`.)
  
- Edit the class `CI346.runner.Runner`. In the `main` method, you need to retrieve
+ Edit the class `CI646.runner.Runner`. In the `main` method, you need to retrieve
  all of the fields of the `User` object, `o`. Have a look at the Oracle docs, which
   [summarise the methods for retrieving class members](https://docs.oracle.com/javase/tutorial/reflect/class/classMembers.html).
   You need to get a reference to the `User` class then retrieve the collection 
