@@ -1,6 +1,6 @@
-package CI346.runner;
+package CI646.runner;
 
-import CI346.test.User;
+import CI646.test.User;
 
 public class Runner {
 

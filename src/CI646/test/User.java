@@ -1,4 +1,4 @@
-package CI346.test;
+package CI646.test;
 
 /**
  * Created by jb259 on 08/12/16.
