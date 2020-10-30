@@ -1,7 +1,7 @@
 package CI646.test;
 
-import CI346.annotations.DefaultInt;
-import CI346.annotations.DefaultString;
+import CI646.annotations.DefaultInt;
+import CI646.annotations.DefaultString;
 
 /**
  * Created by jb259 on 08/12/16.
