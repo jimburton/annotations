@@ -71,7 +71,7 @@ to make sure objects aren't instantiated and used with missing data.
 So, you will use the Annotations API to find all the fields in a class
 that have these annotations attached to them, then use the Reflection API to
 fill in the default value where the field hasn't been set. Start by reading the first few pages 
-of the [Oracle Annotations Tutorial]([https://docs.oracle.com/javase/tutorial/java/annotations/]
+of the [Oracle Annotations Tutorial](https://docs.oracle.com/javase/tutorial/java/annotations/)
 to get an idea of how it all works.
 
 In some settings, it may not make much sense to talk about an object 
